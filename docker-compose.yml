@@ -1,0 +1,45 @@
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_SSL_MODE=${DB_SSL_MODE}
+      - LOG_LEVEL=${LOG_LEVEL}
+      - LOG_TO_CONSOLE=${LOG_TO_CONSOLE}
+      - LOG_TO_FILE=${LOG_TO_FILE}
+      - LOG_FILE_PATH=${LOG_FILE_PATH}
+    volumes:
+      - ./logs:/app/logs
+    command: ./main --host=0.0.0.0 --port=8080
+    networks:
+      - account-network
+
+  db:
+    image: postgres:15-alpine
+    ports:
+      - "${DB_PORT}:5432"
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - account-network
+
+volumes:
+  postgres_data:
+
+networks:
+  account-network:
+    driver: bridge

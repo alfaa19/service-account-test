@@ -1,0 +1,173 @@
+timestamp="2025-04-25T01:10:01Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:12:17Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:12:17Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:12:48Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:13:30Z" level=error message="Failed to bind account: code=400, message=json: Unmarshal(non-pointer dto.AccountRegistration), internal=json: Unmarshal(non-pointer dto.AccountRegistration)"
+timestamp="2025-04-25T01:16:11Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:16:11Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:17:51Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:17:55Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:18:08Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:18:08Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:18:22Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:18:24Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:20:27Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:23:45Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:23:45Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:23:56Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:27:15Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:28:55Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:31:19Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:34:43Z" level=error message="Operation failed" error="Failed to connect to database: sql: unknown driver \"postgres\" (forgotten import?)" operation=main result=error
+timestamp="2025-04-25T01:37:25Z" level=error message="Operation failed" error="Failed to connect to database: pq: SSL is not enabled on the server" operation=main result=error
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation completed successfully" operation=GetAccountByNIK result=success
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation status" operation=GetAccountByPhoneNumber result=start
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation completed successfully" operation=GetAccountByPhoneNumber result=success
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation status" operation=CreateAccount result=start
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation completed successfully" account_id=0 operation=CreateAccount result=success
+timestamp="2025-04-25T01:38:47Z" level=info message="Operation completed successfully" operation=CreateAccount result=success type=service
+timestamp="2025-04-25T01:49:43Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:49:43Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:49:59Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:50:00Z" level=info message="Operation completed successfully" operation=GetAccountByNIK result=success
+timestamp="2025-04-25T01:50:00Z" level=error message="Operation failed" error="NIK already exists" operation=CreateAccount result=error
+timestamp="2025-04-25T01:50:00Z" level=error message="Failed to create account: NIK already exists"
+timestamp="2025-04-25T01:50:06Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:50:06Z" level=info message="Operation completed successfully" operation=GetAccountByNIK result=success
+timestamp="2025-04-25T01:50:06Z" level=info message="Operation status" operation=GetAccountByPhoneNumber result=start
+timestamp="2025-04-25T01:50:06Z" level=info message="Operation completed successfully" operation=GetAccountByPhoneNumber result=success
+timestamp="2025-04-25T01:50:06Z" level=error message="Operation failed" error="phone Number already exists" operation=CreateAccount result=error
+timestamp="2025-04-25T01:50:06Z" level=error message="Failed to create account: phone Number already exists"
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation completed successfully" operation=GetAccountByNIK result=success
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation status" operation=GetAccountByPhoneNumber result=start
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation completed successfully" operation=GetAccountByPhoneNumber result=success
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation status" operation=CreateAccount result=start
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation completed successfully" account_id=2 operation=CreateAccount result=success
+timestamp="2025-04-25T01:50:09Z" level=info message="Operation completed successfully" operation=CreateAccount result=success type=service
+timestamp="2025-04-25T01:50:54Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:50:54Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:52:44Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:52:44Z" level=error message="Operation failed" error="pq: value \"7038811706\" is out of range for type integer" operation=UpdateBalanceDeposit result=error
+timestamp="2025-04-25T01:52:44Z" level=error message="Operation failed" error="pq: value \"7038811706\" is out of range for type integer" operation=UpdateBalanceDeposit result=error
+timestamp="2025-04-25T01:52:44Z" level=error message="Failed to deposit: pq: value \"7038811706\" is out of range for type integer"
+timestamp="2025-04-25T01:54:18Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T01:54:18Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T01:54:34Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:54:34Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T01:54:34Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T01:54:34Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:54:34Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:54:34Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:54:37Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:54:37Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T01:54:37Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T01:54:37Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:54:37Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:54:37Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:54:51Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:54:51Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:54:51Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:54:54Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:54:54Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:54:54Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:54:55Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:54:55Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:54:55Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:56:28Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:56:28Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:56:28Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:56:29Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:56:29Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:56:29Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:56:35Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:56:35Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T01:56:35Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T01:56:35Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:56:35Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:56:35Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:56:37Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:56:37Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T01:56:37Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T01:56:37Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:56:37Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:56:37Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:56:39Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:56:39Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T01:56:39Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T01:56:39Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:56:39Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:56:39Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T01:57:19Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T01:57:19Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T01:57:19Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T01:57:19Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T01:57:19Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T01:57:19Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:07:03Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T02:07:03Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T02:07:21Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T02:07:21Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T02:07:21Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T02:07:21Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:07:21Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:07:21Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:07:23Z" level=info message="Operation status" account_id=7038811706 amount=0 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T02:07:23Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T02:07:23Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T02:07:23Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:07:23Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:07:23Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:07:56Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T02:07:56Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T02:08:07Z" level=info message="Operation status" account_id=7038811706 amount=10000 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T02:08:07Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T02:08:07Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T02:08:07Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:08:07Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:08:07Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:08:14Z" level=info message="Operation status" account_id=7038811706 amount=150000 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T02:08:14Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T02:08:14Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T02:08:14Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:08:14Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:08:14Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:08:20Z" level=info message="Operation status" account_id=7038811706 amount=1.5e+06 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T02:08:20Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T02:08:20Z" level=info message="Operation completed successfully" account_id=7038811706 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T02:08:20Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:08:20Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:08:20Z" level=info message="Operation completed successfully" account_id=2 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:22:35Z" level=error message="Operation failed" error="Server failed to start: http: Server closed" operation=main result=error
+timestamp="2025-04-25T02:22:35Z" level=info message="Operation completed successfully" fields.message="Server shutdown completed" operation=main result=success
+timestamp="2025-04-25T02:36:57Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T02:36:57Z" level=info message="Operation completed successfully" operation=GetAccountByNIK result=success
+timestamp="2025-04-25T02:36:57Z" level=error message="Operation failed" error="NIK already exists" operation=CreateAccount result=error
+timestamp="2025-04-25T02:36:57Z" level=error message="Failed to create account: NIK already exists"
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation status" operation=GetAccountByNIK result=start
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation completed successfully" operation=GetAccountByNIK result=success
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation status" operation=GetAccountByPhoneNumber result=start
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation completed successfully" operation=GetAccountByPhoneNumber result=success
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation status" operation=CreateAccount result=start
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation completed successfully" account_id=3 operation=CreateAccount result=success
+timestamp="2025-04-25T02:37:08Z" level=info message="Operation completed successfully" operation=CreateAccount result=success type=service
+timestamp="2025-04-25T02:37:19Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:37:19Z" level=info message="Operation completed successfully" account_id=3 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:37:19Z" level=info message="Operation completed successfully" account_id=3 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:38:03Z" level=info message="Operation status" account_id=5328684981 amount=1e+06 operation=UpdateBalanceDeposit result=start
+timestamp="2025-04-25T02:38:03Z" level=info message="Operation completed successfully" account_id=5328684981 operation=UpdateBalanceDeposit result=success
+timestamp="2025-04-25T02:38:03Z" level=info message="Operation completed successfully" account_id=5328684981 operation=UpdateBalanceDeposit result=success type=service
+timestamp="2025-04-25T02:38:03Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:38:03Z" level=info message="Operation completed successfully" account_id=3 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:38:03Z" level=info message="Operation completed successfully" account_id=3 operation=GetAccountByNoRekening result=success type=service
+timestamp="2025-04-25T02:38:21Z" level=info message="Operation status" account_id=5328684981 amount=1e+07 operation=UpdateBalanceWithdraw result=start
+timestamp="2025-04-25T02:38:21Z" level=error message="Operation failed" error="insufficient balance" operation=UpdateBalanceWithdraw result=error
+timestamp="2025-04-25T02:38:21Z" level=error message="Operation failed" error="insufficient balance" operation=UpdateBalanceWithdraw result=error
+timestamp="2025-04-25T02:38:21Z" level=error message="Failed to withdraw: insufficient balance"
+timestamp="2025-04-25T02:38:33Z" level=info message="Operation status" account_id=5328684981 amount=1e+06 operation=UpdateBalanceWithdraw result=start
+timestamp="2025-04-25T02:38:33Z" level=info message="Operation completed successfully" account_id=5328684981 operation=UpdateBalanceWithdraw result=success
+timestamp="2025-04-25T02:38:33Z" level=info message="Operation completed successfully" account_id=5328684981 operation=UpdateBalanceWithdraw result=success type=service
+timestamp="2025-04-25T02:38:33Z" level=info message="Operation status" operation=GetAccountByNoRekening result=start type=repository
+timestamp="2025-04-25T02:38:33Z" level=info message="Operation completed successfully" account_id=3 operation=GetAccountByNoRekening result=success
+timestamp="2025-04-25T02:38:33Z" level=info message="Operation completed successfully" account_id=3 operation=GetAccountByNoRekening result=success type=service
