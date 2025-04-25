@@ -136,9 +136,3 @@ docker compose up db
 go run cmd/server/main.go
 ```
 
-## Testing
-
-Run the tests:
-```bash
-go test ./...
-```
