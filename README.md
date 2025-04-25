@@ -16,7 +16,7 @@ A simple banking service REST API built with Go that handles basic banking opera
 ## Prerequisites
 
 - Docker and Docker Compose
-- Go 1.21 or higher (for local development)
+- Go 1.24 or higher (for local development)
 - Make (optional, for using Makefile commands)
 
 ## Getting Started
